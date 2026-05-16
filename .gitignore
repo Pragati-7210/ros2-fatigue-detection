@@ -1,0 +1,12 @@
+build/
+install/
+log/
+venv/
+__pycache__/
+*.pyc
+*.csv
+.vscode/
+*.db
+*.db-shm
+*.db-wal
+multimodal-fatigue-detection/
