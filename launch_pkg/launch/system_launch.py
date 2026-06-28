@@ -12,6 +12,12 @@ def generate_launch_description():
             executable='settings_node',
             output='screen'
         ),
+	
+	 Node(
+            package='settings_pkg',
+            executable='permission_monitor_node',
+            output='screen'
+        ),
 
         Node(
             package='fusion_pkg',
@@ -28,6 +34,12 @@ def generate_launch_description():
 	 Node(
             package='camera_pkg',
             executable='camera_node',
+            output='screen'
+        ),
+	
+	  Node(
+            package='typing_pkg',
+            executable='typing_node',
             output='screen'
         ),
 
